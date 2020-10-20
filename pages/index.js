@@ -2,7 +2,6 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import api from '../contributor.json'
 import Navbar from '../components/navbar'
-import Button from '../components/button'
 
 export default function Home() {
   return (
@@ -20,8 +19,6 @@ export default function Home() {
         <p className={styles.description}>
           Contributor List
         </p>
-        <Button>Test</Button>
-
         <h2>
           {api.map((values) => {
             return(
