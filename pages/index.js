@@ -11,7 +11,7 @@ export default function Home() {
         <title>Hacktoberfest For Fun</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <Navbar/> */}
+      <Navbar/>
       <main className={styles.main}>
         <h1 className={styles.title}>
           Hacktoberfest For Fun

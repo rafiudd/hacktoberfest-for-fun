@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div className={styles.container}>
         <nav>
-            lala
+          Nav
         </nav>
     </div>
   )
